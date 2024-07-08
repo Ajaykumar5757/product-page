@@ -1,35 +1,43 @@
 body{
-    padding: 0px;
-    margin: 0px;
-}
-
-.image{
-    height: 200px;
-    width: 200px;
-}
-
-.btn{
-    color: white;
-    background-color: rgb(18, 158, 18);
+    background-color: rgb(17, 151, 137);
+    padding: 0;
+    margin:0;
 }
 
 .first{
-    column-count: 2;
-    column-gap: 10px;
-    padding: 60px;
-    margin: 60px;
+    margin: 10px 100px;
+    padding: 10px 100px;
+}
+
+.p1,.p2{
+    display:flex;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
 }
 
 .one{
-    padding: 10px 50px;
-    margin: 10px 50px;
+    box-shadow: 0px 2px 2px 2px rgb(17, 151, 137);
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 10px 150px;
+    background-color: rgb(87, 181, 173);
 }
 
-.two{
-    margin:  10px 50px;
-    padding: 10px 50px;
+.btn{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    margin-left: 35px;
 }
 
-h2{
+h3{
     text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(13, 247, 122);
+    color:black;
 }
